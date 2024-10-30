@@ -12,7 +12,7 @@ If you are planning to implement the entire process we used:
 
 1) InitialProcessing: To upload data.
 
-2) TopicModeling: Creating our topics using LDA with the dataset.
+2) TM: (Topic Modeling) Creating our topics using LDA with the dataset.
 
 3) We separated these classifiers into BERT (TBC) and Naive Bayes (TNB) depending on which text classifier you plan to use. Once you have your LDA topics, you train a text classifier for each topic using these codes.
 
