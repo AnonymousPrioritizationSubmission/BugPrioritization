@@ -14,7 +14,7 @@ If you are planning to implement the entire process we used:
 
 2) TopicModeling: Creating our topics using LDA with the dataset.
 
-3) TrainingClassifiers: We separated this folder into BERT and Naive Bayes depending on which text classifier you plan to use. Once you have your LDA topics, you train a text classifier for each topic using these codes.
+3) We separated these classifiers into BERT (TBC) and Naive Bayes (TNB) depending on which text classifier you plan to use. Once you have your LDA topics, you train a text classifier for each topic using these codes.
 
 4) Pipelines: Once you have your topics and text classifiers, you may implement the pipelines accordingly. To test a dataset using this repository, you must access the pipelines. To test your dataset with any of the three pipelines, make sure your priority levels are organized using label_map = {'P1': 1, 'P2': 2, 'P3': 3, 'P4': 4, 'P5': 5}. From there, it is easy to compare the pipeline and actual results.
 
