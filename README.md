@@ -10,13 +10,13 @@ This approach uses Jupyter Notebooks and Python for implementation. You can acce
 
 If you are planning to implement the entire process we used:
 
-1) I: To upload data.
+1) I: (Initial Processing) To upload data.
 
 2) TM: (Topic Modeling) Creating our topics using LDA with the dataset.
 
-3) We separated these classifiers into BERT (TBC) and Naive Bayes (TNB) depending on which text classifier you plan to use. Once you have your LDA topics, you train a text classifier for each topic using these codes.
+3) TBC or TNB: (Training) We separated these classifiers into BERT (TBC) and Naive Bayes (TNB) depending on which text classifier you plan to use. Once you have your LDA topics, you train a text classifier for each topic using these codes.
 
-4) P: Once you have your topics and text classifiers, you may implement the pipelines accordingly. To test a dataset using this repository, you must access the pipelines. To test your dataset with any of the three pipelines, make sure your priority levels are organized using label_map = {'P1': 1, 'P2': 2, 'P3': 3, 'P4': 4, 'P5': 5}. From there, it is easy to compare the pipeline and actual results.
+4) P: (Pipelines) Once you have your topics and text classifiers, you may implement the pipelines accordingly. To test a dataset using this repository, you must access the pipelines. To test your dataset with any of the three pipelines, make sure your priority levels are organized using label_map = {'P1': 1, 'P2': 2, 'P3': 3, 'P4': 4, 'P5': 5}. From there, it is easy to compare the pipeline and actual results.
 
 If implementing this process from scratch, you may have to adjust the file names within these codes.
 
